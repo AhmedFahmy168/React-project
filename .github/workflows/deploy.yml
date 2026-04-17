@@ -18,7 +18,7 @@ jobs:
       - run: docker build -t ahmedfahmy168/multi-server ./microservices/server
       - run: docker build -t ahmedfahmy168/multi-worker ./microservices/worker
 
-      - run: docker push aahmedfahmy168/multi-client
+      - run: docker push ahmedfahmy168/multi-client
       - run: docker push ahmedfahmy168/multi-nginx
       - run: docker push ahmedfahmy168/multi-server
       - run: docker push ahmedfahmy168/multi-worker
