@@ -22,3 +22,4 @@ jobs:
       - run: docker push ahmedgamil/multi-nginx
       - run: docker push ahmedgamil/multi-server
       - run: docker push ahmedgamil/multi-worker
+      # update the secrets
